@@ -21,22 +21,12 @@ Capture screenshots of the waveform and save the simulation logs. These will be 
 
 # Code
 # RAM
-module memory_ram( input clk, 
-                   input rst,
-                  input write_enable, 
-                  input wire [9:0] address, 
-                  input wire [7:0] data_in, 
-                  output reg [7:0] data_out
-                  );
-always @(posedge clk) 
-begin 
---- write the read/write logic
-end
-endmodule
+// Verilog code
+
 // Test bench
------
+
 // output Waveform
---------
+
 # ROM
  // write verilog code for ROM using $random
  
