@@ -28,19 +28,15 @@ module memory_ram( input clk,
                   input wire [7:0] data_in, 
                   output reg [7:0] data_out
                   );
-
-
-// Declare the memory
-
 always @(posedge clk) 
 begin 
-// write the read/write logic
+--- write the read/write logic
 end
 endmodule
-# Test bench
-
-# output Waveform
-
+// Test bench
+-----
+// output Waveform
+--------
 # ROM
  // write verilog code for ROM using $random
  
