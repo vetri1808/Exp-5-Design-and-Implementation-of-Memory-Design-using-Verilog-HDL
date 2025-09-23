@@ -35,7 +35,7 @@ Capture screenshots of the waveform and save the simulation logs. These will be 
 // output Waveform
 
  # FIFO
- // write verilog code for ROM using $random
+ // write verilog code for FIFO
  
  // Test bench
 
